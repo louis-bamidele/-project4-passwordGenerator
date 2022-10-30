@@ -8,9 +8,9 @@ section {
     margin-top: 3rem;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: -1px 0px 44px 7px rgba(0,0,0,0.97);
-    -webkit-box-shadow: -1px 0px 44px 7px rgba(0,0,0,0.97);
-    -moz-box-shadow: -1px 0px 44px 7px rgba(0,0,0,0.97);
+    box-shadow: 2px 1px 10px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 1px 10px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 1px 10px 3px rgba(0,0,0,0.75);
     background-color: rgb(189, 214, 242);
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
