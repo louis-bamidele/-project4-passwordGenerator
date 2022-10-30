@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e68082698.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>password - Generator</title>
+</head>
+<body>
+  <section>
+    <h2 class="heading">Password  Generator</h2>
+    <form>
+        <div id="strengthFieldId" class="formField strengthField" data-tool-tip="moderate">
+            <label for="strength" class="strength">strength</label>
+            <input type="range" onchange="handleStrength()" value="64" min="0" max="100" id="range" oninput="rangenumber.value=value"/>
+            <input type="number" onchange="handleStrength()" id="rangenumber" min="0" max="100" value="64" oninput="range.value=value">
+        </div>
+        <div class="formField">
+            <label for="length" class="length">length</label>
+            <input type="range" value="12" min="0" max="100" id="length" oninput="lengthnumber.value=value"/>
+            <input type="number" id="lengthnumber" min="0" max="100" value="12" oninput="length.value=value">
+        </div>
+        <div class="formField">
+            <label for="symbol" class="symbol">Allowed symbols</label>
+            <input type="text" name="symbol" id="symbol" value="%^*()(^$##>?)"  autocomplete="off">
+        </div>
+        <div class="formField">
+            <label for="capital" class="capital">Allow capital Letter</label>
+            <input type="checkbox" name="capital" id="capital"  autocomplete="off" >
+        </div>
+        <div class="formField">
+            <label for="numeric" class="numeric">Allow Numeric</label>
+            <input type="checkbox" name="numeric" id="numeric" required autocomplete="off"  checked>
+        </div>
+        <input type="hidden" name="" required>
+        <button class="btn button" >generate</button>
+        
+        
+    </form>
+    <div class="giphy-iframe">
+        <img src="giphy.gif" frameBorder="0" class="giphy-embed" >
+    </div>
+
+    <div class="result-container">
+        <p id="result">Generated Password</p> 
+        <div class="icon button">
+            <i class="fa-solid fa-rotate"></i>
+        </div>
+       
+    </div>
+    <div class="btn-container">
+        <button onclick="handleCopyText()" class="btn">copy password</button> <div id="copied"></div> 
+    </div>
+  </section>
+     
+<script src="index.js"></script>
+</body>
+</html>
