@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ solution URL](https://github.com/louis-bamidele/-project4-passwordGenerator/)
-- Live Site URL: [live site URL](https://louis-bamidele.github.io/-project4-passwordGenerator/)
+- Solution URL: [here](https://github.com/louis-bamidele/-project4-passwordGenerator/)
+- Live Site URL: [here](https://louis-bamidele.github.io/-project4-passwordGenerator/)
 
 
 
