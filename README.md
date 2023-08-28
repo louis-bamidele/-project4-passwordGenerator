@@ -56,6 +56,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [louis](https://www.your-site.com)
-- Twitter - [@yourusername](https://www.twitter.com/_louis_15)
+
+- Twitter - [@l0uis_77](https://twitter.com/l0uis_77)
 
